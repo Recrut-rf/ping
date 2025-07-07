@@ -6,15 +6,13 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)  # Для совместимости между компиляторами
 
-# Укажите файлы исходного кода
 set(SOURCES
     main.cpp
     ping.cpp
 )
 
-# Укажите заголовочные файлы
 set(HEADERS
-    ping.h  # У вас был ping.h, но в коде используется ping.hpp
+    ping.h  
 )
 
 # Создаем исполняемый файл
